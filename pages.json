@@ -1,0 +1,24 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Secret Chat"
+			}
+		}
+        ,{
+            "path" : "pages/index/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "愿星空是你我之间的言语",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "chat",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#19C5CF"
+	}
+}
